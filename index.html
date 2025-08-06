@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lowa | Software Engineer</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Lato:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body id="page-top">
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#page-top" class="logo">TL</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact" class="btn">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="container">
+      <img src="assets/img/profile.jpg" class="hero-img" alt="Your portrait" />
+      <h1>Hi, I'm Tsering Lowa</h1>
+      <p>
+        I'm a <strong>software engineer</strong> with a background in <strong>computer science</strong>, passionate about building <strong>scalable</strong>, <strong>efficient</strong>, and <strong>user-focused</strong> applications. I enjoy solving real-world problems through <code>clean code</code>, whether it's developing <em>backend systems</em>, <em>full-stack web apps</em>, or working with <em>cloud technologies</em>. Explore my portfolio to see <strong>projects</strong> and <strong>tools</strong> I've created to make an impact.
+      </p>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="divider"><i class="fas fa-leaf"></i></div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm <strong>Tsering Lowa</strong>, a <em>Computer Science graduate</em> passionate about solving problems through technology. I enjoy learning and creating tools that improve everyday life.</p>
+
+          <p>Beyond coding, I explore <em>smart home technology</em>, <em>cloud computing</em>, and <em>music</em>. Check out the <a href="#projects">Projects</a> section to learn more about what I’ve built.</p>
+
+          <h3>Education</h3>
+          <ul>
+            <li>B.A. in Computer Science – CUNY Queens College</li>
+            <li>A.S. in Computer Science – LaGuardia Community College</li>
+          </ul>
+
+          <h3>Hobbies</h3>
+          <ul>
+            <li>Playing soccer</li>
+            <li>Music production and vocal recording</li>
+            <li>Video editing and storytelling</li>
+            <li>Exploring smart home tech</li>
+            <li>Hiking and nature walks</li>
+          </ul>
+
+          <h3>Top Goals & Achievements</h3>
+          <ol>
+            <li>AWS Certified Cloud Practitioner</li>
+            <li>Pending...</li>
+            <li>Pending...</li>
+          </ol>
+
+          <h3>Interests</h3>
+          <ul>
+            <li>Cloud computing and DevOps</li>
+            <li>Full-stack web development</li>
+            <li>Creative tech for musicians</li>
+          </ul>
+        </div>
+        <div class="about-button">
+          <a href="assets/Lowa_Resume.pdf" class="btn-download" download>
+            <i class="fas fa-download"></i> Download My Resume
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="divider"><i class="fas fa-leaf"></i></div>
+      <div class="projects-grid">
+        <div class="project-item">
+          <img src="assets/img/your-photo.jpg" alt="Meet App" />
+          <div class="overlay">Meet App</div>
+        </div>
+        <div class="project-item">
+          <img src="assets/img/your-photo.jpg" alt="Pokedex App" />
+          <div class="overlay">Pokedex App</div>
+        </div>
+        <div class="project-item">
+          <img src="assets/img/your-photo.jpg" alt="Chat App" />
+          <div class="overlay">Chat App</div>
+        </div>
+        <div class="project-item">
+          <img src="assets/img/your-photo.jpg" alt="myFlix React" />
+          <div class="overlay">myFlix App - React</div>
+        </div>
+        <div class="project-item">
+          <img src="assets/img/your-photo.jpg" alt="myFlix Angular" />
+          <div class="overlay">myFlix App - Angular</div>
+        </div>
+        <div class="project-item">
+          <img src="assets/img/your-photo.jpg" alt="Portfolio Website" />
+          <div class="overlay">Portfolio Website</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <div class="divider"><i class="fas fa-leaf"></i></div>
+      <form class="contact-form" action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label>Skills:</label>
+        <div class="checkbox-group">
+          <label><input type="checkbox" name="skills" value="HTML"> HTML</label>
+          <label><input type="checkbox" name="skills" value="CSS"> CSS</label>
+          <label><input type="checkbox" name="skills" value="JavaScript"> JavaScript</label>
+          <label><input type="checkbox" name="skills" value="Python"> Python</label>
+          <label><input type="checkbox" name="skills" value="AWS"> AWS</label>
+        </div>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="btn-submit">Submit</button>
+        <button type="reset" class="btn-submit">Reset</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="social-links">
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="#" aria-label="Spotify"><i class="fab fa-spotify"></i></a>
+        <a href="#" aria-label="SoundCloud"><i class="fab fa-soundcloud"></i></a>
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+      </div>
+      <p>&copy; 2025 Lowa. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scroll Script -->
+  <script>
+    const sections = document.querySelectorAll("section");
+    const navLinks = document.querySelectorAll(".nav-links a");
+
+    window.addEventListener("scroll", () => {
+      let current = "";
+
+      sections.forEach((section) => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.offsetHeight;
+
+        if (scrollY >= sectionTop - 120 && scrollY < sectionTop + sectionHeight - 120) {
+          current = section.getAttribute("id");
+        }
+      });
+
+      navLinks.forEach((link) => {
+        link.classList.remove("active");
+        if (link.getAttribute("href") === `#${current}`) {
+          link.classList.add("active");
+        }
+      });
+    });
+  </script>
+</body>
+</html>
